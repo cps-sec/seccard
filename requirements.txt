@@ -1,0 +1,22 @@
+# Python dependencies for the A2A Agent-Card Security artifact.
+# Tested with Python 3.12. Install with:  pip install -r requirements.txt
+#
+# Version pins reflect the environment used to produce the paper results.
+# Loosen (>=) if you hit platform-specific resolution issues.
+
+# ── Core (Layer 1 / Layer 2A / Layer 2B / tier validator) ────────────
+inspect-ai==0.3.220        # evaluation harness (inspect_eval.py, cross_model_eval.py)
+anthropic==0.97.0          # Claude provider used by the LLM-as-judge (Layer 2B)
+scikit-learn==1.9.0        # TF-IDF coherence + supervised features (nlp_features.py)
+nltk==3.9.4                # VADER sentiment (nlp_features.py); lexicon auto-downloads
+cryptography==47.0.0       # Tier-2 JWS/x509/ECDSA verification (a2a_card_health_validator.py)
+requests==2.33.1           # Rekor transparency-log lookups (a2a_card_health_validator.py)
+
+# ── Optional: SiEBERT neural sentiment backend (nlp_features.py --sentiment-backend siebert)
+# transformers==5.10.2
+# torch==2.12.0
+
+# ── Optional: cross-model study closed-source providers (cross_model_eval.py)
+# openai==2.36.0                 # GPT-5.x models
+# google-generativeai==0.8.6     # Gemini models
+# (open-weight models in cross_model_eval.py run locally via Ollama — no pip dep)

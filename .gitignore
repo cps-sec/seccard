@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Artifact-specific ────────────────────────────────────────────────
+# Local model caches / API keys / eval logs
+models/
+.env
+inspect_logs/
+artifacts/figures/

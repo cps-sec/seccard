@@ -151,3 +151,27 @@ exact system prompt, user-message template, and taxonomy are documented in
 python artifacts/adversarial_card_generator.py --status
 python artifacts/adversarial_card_generator.py --all
 ```
+
+---
+
+## `trust_labeling.py` — Trusted/Untrusted labeling of the wild corpus
+
+Offline (no API key). Applies the trust policy to `data/in_the_wild_corpus/`:
+
+> **Trusted** iff the card reaches Tier 0 (`structural_score >= 8`) **and** the
+> ensemble verdict (2-of-3 majority over L2A / L2B v1 / L2B v2) is **BENIGN**;
+> otherwise **Untrusted**. Only Trusted cards are eligible for automatic
+> orchestrator consumption.
+
+Reads the self-contained corpus JSON (which carries `structural_score` and the
+per-layer verdicts), recomputes the ensemble and trust label, prints the summary
+table, and writes `data/in_the_wild_corpus/trust_summary.md`.
+
+| Parameter | Description |
+|---|---|
+| `--csv PATH` | Also emit a per-card CSV (`domain, structural_score, l2a, l2b_v1, l2b_v2, ensemble, reached_tier0, trust`). |
+
+```bash
+python artifacts/trust_labeling.py
+python artifacts/trust_labeling.py --csv trust.csv
+```

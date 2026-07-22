@@ -470,7 +470,13 @@
           "llms_txt": "https://402found.dev/llms.txt"
         },
         "generated_by": "402found.dev"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "4jawaly.com",
@@ -931,7 +937,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "4jawaly.net",
@@ -1392,7 +1404,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "a2abench-api.web.app",
@@ -1890,7 +1908,13 @@
           "type": "apiKey",
           "description": "Read-only endpoints and MCP tools are public. Bearer API key for write endpoints. X-Admin-Token for admin endpoints."
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "aesthetic.energy",
@@ -2217,7 +2241,13 @@
             "description": "Assesses the depreciation and real-time market value of cosmetic lasers."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "aesthetic.equipment",
@@ -2544,7 +2574,13 @@
             "description": "Assesses the depreciation and real-time market value of cosmetic lasers."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "aesthetic.exchange",
@@ -2871,7 +2907,13 @@
             "description": "Assesses the depreciation and real-time market value of cosmetic lasers."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "affonso.io",
@@ -3236,7 +3278,13 @@
             "package": "https://www.npmjs.com/package/@affonso/cli"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "agentcard.sh",
@@ -3694,7 +3742,13 @@
           "text/plain",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "agenthustle.ai",
@@ -4802,7 +4856,13 @@
           "text/markdown",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "agenticeye.co",
@@ -5156,7 +5216,13 @@
             "bearer"
           ]
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "agentizzy.com",
@@ -5565,7 +5631,13 @@
           "pricingCurrency": "USD",
           "contentSignals": "search=yes, ai-input=yes, ai-train=yes"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "agents.ml",
@@ -5906,7 +5978,13 @@
         ],
         "documentationUrl": "https://agents.ml/api",
         "iconUrl": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2280%22%20height%3D%2280%22%20viewBox%3D%220%200%2080%2080%22%3E%0A%20%20%20%20%3Crect%20width%3D%2280%22%20height%3D%2280%22%20rx%3D%2240.0%22%20fill%3D%22%2523111114%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2240.0%22%20cy%3D%2218.2%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2225.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2232.7%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2232.7%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2232.7%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2232.7%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2240.0%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2247.3%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2254.5%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2240.0%22%20cy%3D%2254.5%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2218.2%22%20cy%3D%2261.8%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2261.8%22%20cy%3D%2261.8%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2232.7%22%20cy%3D%2261.8%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%3Ccircle%20cx%3D%2247.3%22%20cy%3D%2261.8%22%20r%3D%222.9%22%20fill%3D%22hsl(170%2C50%25%2C70%25)%22%2F%3E%0A%20%20%3C%2Fsvg%3E"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "aibizneslab.pl",
@@ -6247,7 +6325,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "aicoevolution.com",
@@ -6669,7 +6753,13 @@
         ],
         "url": "https://www.aicoevolution.com",
         "version": "1.0.0"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ailkemy.com",
@@ -7085,7 +7175,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "aisa.one",
@@ -7887,7 +7983,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "aisecurityguard.io",
@@ -8234,7 +8336,13 @@
           "email": "reachout@aisecurityguard.io",
           "community": "https://t.me/+KOD2R7nHZOlkNjUx"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "altusstudios.com",
@@ -8650,7 +8758,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ananda-cacao.com",
@@ -9023,7 +9137,13 @@
         "defaultOutputModes": [
           "text"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "anvevoice.app",
@@ -9660,7 +9780,13 @@
           "sitemap_index": "https://anvevoice.app/sitemap-index.xml",
           "rss": "https://anvevoice.app/rss.xml"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "any.do",
@@ -10032,7 +10158,13 @@
         "defaultOutputModes": [
           "text"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "anybrowse.dev",
@@ -10525,7 +10657,13 @@
           "chrome",
           "headless-browser"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "api.cerebruspulse.xyz",
@@ -11111,7 +11249,13 @@
             "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402"
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "apideck.com",
@@ -11470,7 +11614,13 @@
           "name": "Apideck",
           "url": "https://www.apideck.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "apideck.dev",
@@ -11829,7 +11979,13 @@
           "name": "Apideck",
           "url": "https://www.apideck.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "app.pendo.io",
@@ -12691,7 +12847,13 @@
         "url": "https://app.pendo.io/a2a/v0",
         "version": "1.0.0",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "arcadia.finance",
@@ -13106,7 +13268,13 @@
             "none"
           ]
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "arret-sur-image.fr",
@@ -13471,7 +13639,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "asapliving.de",
@@ -13818,7 +13992,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "asterpay.io",
@@ -14374,7 +14554,13 @@
           "partner_program": "https://asterpay.io/partners/",
           "ecosystem_directory": "https://asterpay.io/ecosystem/"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "attrove.com",
@@ -14914,7 +15100,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "audiencestrategies.com",
@@ -15242,7 +15434,13 @@
             "description": "Full site content in plain text at /llms-full.txt"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "australianweddingcelebrants.com.au",
@@ -15611,7 +15809,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "babyandmom.ma",
@@ -15942,7 +16146,13 @@
             "description": "Check product availability"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "babylon.market",
@@ -16593,7 +16803,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "bardavidlaw.com",
@@ -16929,7 +17145,13 @@
           "robots": "https://bardavidlaw.com/robots.txt"
         },
         "version": "1.0"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "barrierefrei-navigieren.de",
@@ -17411,7 +17633,13 @@
         },
         "agentId": "everguide-building-management",
         "serviceEndpoint": "https://www.barrierefrei-navigieren.de/prod/v1/mcp"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "behavehealth.com",
@@ -17769,7 +17997,13 @@
           "type": "none",
           "note": "No public agent-callable API. Integrations available via partnership — contact sales."
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "bergholt.net",
@@ -18126,7 +18360,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "beste.co",
@@ -18461,7 +18701,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "blackgate.com.au",
@@ -18785,7 +19031,13 @@
             "description": "Static overview and key URLs for assistants summarising Blackgate."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "breakbread.xyz",
@@ -23466,7 +23718,13 @@
             }
           ]
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "brewhubphl.com",
@@ -23793,7 +24051,13 @@
             "description": "Allows an external agent to autonomously place a coffee order via the BrewHub API."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "budgetfitter.uk",
@@ -24161,7 +24425,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "businessstrategyai.com",
@@ -24534,7 +24804,13 @@
           "rate": "1 credit per chat completion",
           "billing": "https://peripatetic.ai/developers/billing"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "californiasolarpumps.com",
@@ -24872,7 +25148,13 @@
           "returns": "Zero ever"
         },
         "powered_by": "NetShow.AI"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "cameronrohn.com",
@@ -25354,7 +25636,13 @@
             "repository": "https://github.com/Cam10001110101/website-docusaurus01"
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "capminal.ai",
@@ -25989,7 +26277,13 @@
           "tokenAddress": "0xbfa733702305280F066D470afDFA784fA70e2649",
           "virtualsUrl": "https://app.virtuals.io/virtuals/23397"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "cedarops.com",
@@ -26331,7 +26625,13 @@
             "description": "Email the founder of Cedar Operations directly at founder@cedarops.com"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "celebrant.directory",
@@ -26700,7 +27000,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "celimmo.com",
@@ -27134,7 +27440,13 @@
           "a2a": "1.0",
           "mcp": "2024-11-05"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "chainhost.online",
@@ -27534,7 +27846,13 @@
             }
           }
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "chatfin.ai",
@@ -27940,7 +28258,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-25T11:45:53+00:00"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "chilledsites.com",
@@ -28356,7 +28680,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "chiropracticresults.com",
@@ -28797,7 +29127,13 @@
           "sitemap": "https://chiropracticresults.com/sitemap.xml",
           "mcpEndpoint": "https://recvmbabzbocmalrhmys.supabase.co/functions/v1/mcp-server/mcp"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "cindrtoken.com",
@@ -29169,7 +29505,13 @@
         "contact": {
           "url": "https://x.com/cindrtoken"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "claridec.com",
@@ -29514,7 +29856,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "clarvia.dev",
@@ -29947,7 +30295,13 @@
           }
         ],
         "version": "1.0.0"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "clashofcoins.com",
@@ -30271,7 +30625,13 @@
           "llms_txt": "https://clashofcoins.com/llms.txt",
           "api_docs": "https://clashofcoins.com/api.md"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "clawn.ch",
@@ -30632,7 +30992,13 @@
           "wallet": "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
           "chain": "eip155:8453"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "clipx.app",
@@ -30977,7 +31343,13 @@
           }
         ],
         "iconUrl": "http://localhost:3000/favicon.png"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "clone.fyi",
@@ -31334,7 +31706,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "closient.com",
@@ -31751,7 +32129,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "cmdrvl.com",
@@ -32088,7 +32472,13 @@
           "organization": "CMD+RVL",
           "url": "https://cmdrvl.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "coinrailz.com",
@@ -33928,7 +34318,13 @@
             "integrationGuide": "https://coinrailz.com/mcp-integration-guide"
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "completeaquaticsolutions.com",
@@ -34248,7 +34644,13 @@
           "type": "none",
           "required": false
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "conveniencepro.cc",
@@ -34753,7 +35155,13 @@
           "fullDocumentation": "https://conveniencepro.cc/llms-full.txt",
           "sdk": "https://conveniencepro.cc/sdk/conveniencepro.js"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "copybee.ai",
@@ -35218,7 +35626,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "copypro.lt",
@@ -35581,7 +35995,13 @@
           "text/plain",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "cosmiccodex.app",
@@ -36118,7 +36538,13 @@
           ],
           "response_format": "{ data, meta: { protocol, version, timestamp, source } }"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "crowcrowcrow.com",
@@ -36504,7 +36930,13 @@
           "https://www.instagram.com/crowcrowcrow",
           "https://www.facebook.com/3crowcrowcrow"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "curationsla.com",
@@ -37015,7 +37447,13 @@
           "curated",
           "good-vibes"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "curlec.com",
@@ -37525,7 +37963,13 @@
           "organization": "Razorpay Software Private Limited",
           "url": "https://razorpay.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "cyber-solutions.at",
@@ -37866,7 +38310,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "czm.ai",
@@ -38283,7 +38733,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "dagenaftellen.nl",
@@ -38724,7 +39180,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "dailychronicle.xyz",
@@ -39107,7 +39569,13 @@
           "health",
           "sports"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "dash0.com",
@@ -39505,7 +39973,13 @@
         "security": [
           "bearer"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "decide.fyi",
@@ -39848,7 +40322,13 @@
           "type": "none",
           "note": "Public v1 notaries. No authentication required."
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "dexpaprika.com",
@@ -40300,7 +40780,13 @@
             "description": "AI-agent landing page with setup commands for Claude, ChatGPT, Cursor, and other MCP clients. Hosts the canonical skill.md."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "dhimanseal.com",
@@ -40733,7 +41219,13 @@
           "schemaOrg": "Implemented with JSON-LD",
           "llmsTxt": "Available at /llms.txt and /llms-full.txt"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "digitalenergy.kz",
@@ -41186,7 +41678,13 @@
             "url": "https://digitalenergy.kz/.well-known/agent-card.json"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "discoveratlanta.com",
@@ -41623,7 +42121,13 @@
             "skillsList": "https://discoveratlanta.com/wp-json/a2a/v1/skills"
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "distributedcreatives.org",
@@ -41989,7 +42493,13 @@
           "application/json"
         ],
         "openapi": "https://distributedcreatives.org/openapi.json"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "domotique-store.fr",
@@ -42355,7 +42865,13 @@
             "noauth": []
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "druryplazahotelorlando.com",
@@ -42706,7 +43222,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "duruideja.lt",
@@ -43070,7 +43592,13 @@
           "text/plain",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "e-invoice.be",
@@ -43474,7 +44002,13 @@
             "hint"
           ]
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "earthalliance.news",
@@ -43947,7 +44481,13 @@
           "trustModel": "Three-tier editorial trust: core (founding voices), verified (established track record), community (emerging contributors). All contributors are editorially curated, never algorithmically suggested.",
           "contributorPhilosophy": "Contributors are people already doing Earth Alliance work — their categories reflect worldviews and lived experience, not content types. Cross-platform links point outward, never embed centralized platforms."
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "edgevana.com",
@@ -44430,7 +44970,13 @@
             "transport": "HTTP+JSON"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "eduardocruz.com",
@@ -44881,7 +45427,13 @@
           "api_catalog": "https://eduardocruz.com/.well-known/api-catalog",
           "hire_brief": "https://eduardocruz.com/hire.md"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "emblemvault.ai",
@@ -45989,7 +46541,13 @@
           "text/markdown",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "emc2ai.io",
@@ -47471,7 +48029,13 @@
           }
         ],
         "_ref": "emc2-edec9226db5376a7"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "MALICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "MALICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "erikbethke.com",
@@ -47781,7 +48345,13 @@
         "defaultOutputModes": [
           "text"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "everydev.ai",
@@ -48157,7 +48727,13 @@
           }
         ],
         "documentationUrl": "https://www.everydev.ai/llms.txt"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ewchain.io",
@@ -48652,7 +49228,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "execassistantai.com",
@@ -49022,7 +49604,13 @@
           "rate": "1 credit per chat completion",
           "billing": "https://peripatetic.ai/developers/billing"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "extrahasznaltruha.hu",
@@ -49351,7 +49939,13 @@
             "name": "Video Verification"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "facereader-online.com",
@@ -49690,7 +50284,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "feemail.co.jp",
@@ -50060,7 +50660,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "finemanget.se",
@@ -50550,7 +51156,13 @@
             "url": "https://finemanget.se/kontakt"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "finitestate.io",
@@ -51006,7 +51618,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "firenum.com",
@@ -51358,7 +51976,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "freetoolsfr.com",
@@ -51702,7 +52326,13 @@
             "description": "Convert between PDF, Word, Excel, PowerPoint, HTML, Markdown, CSV, and URL — in both directions where possible."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-instagram.hf.space",
@@ -52032,7 +52662,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-medium.hf.space",
@@ -52362,7 +52998,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-mindrift.hf.space",
@@ -52692,7 +53334,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-n8n.hf.space",
@@ -53022,7 +53670,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-patents.hf.space",
@@ -53352,7 +54006,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "funviral-a2a-sin-quora.hf.space",
@@ -53682,7 +54342,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "gabrimatic.info",
@@ -54102,7 +54768,13 @@
         "security": [],
         "signatures": [],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "geometra.lt",
@@ -54478,7 +55150,13 @@
           "text/plain",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "getcitable.com",
@@ -54853,7 +55531,13 @@
           "twitter": "https://twitter.com/BeCitable",
           "linkedin": "https://www.linkedin.com/company/citablexyz"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "getdex.com",
@@ -55284,7 +55968,13 @@
           "oauthMetadata": "https://getdex.com/.well-known/oauth-authorization-server",
           "llmsTxt": "https://getdex.com/llms.txt"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "getname.pl",
@@ -55669,7 +56359,13 @@
           "url": "https://getname.pl"
         },
         "documentationUrl": "https://getname.pl/api/docs"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "getvia.xyz",
@@ -56115,7 +56811,13 @@
           "homepage": "https://getvia.xyz",
           "rrg": "https://realrealgenuine.com"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ginsengswap.org",
@@ -56467,7 +57169,13 @@
           "tasks": "https://ginsengswap.org/api/a2a/tasks"
         },
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "global-chat.io",
@@ -57474,7 +58182,13 @@
           "manifest": "https://global-chat.io/.well-known/work402.json",
           "onboarding_status": "pending"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "grafpunkt.pl",
@@ -57793,7 +58507,13 @@
         "endpoints": {
           "web": "https://www.grafpunkt.pl"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "grandhotelbridgeport.com",
@@ -58144,7 +58864,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "grandhotelsalem.com",
@@ -58495,7 +59221,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "halykfund.com",
@@ -58908,7 +59640,13 @@
             "url": "https://halykfund.com/.well-known/agent-card.json"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "handler-group.com",
@@ -78936,7 +79674,13 @@
             }
           ]
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "hashgraphonline.com",
@@ -79281,7 +80025,13 @@
           "creditCost": 0,
           "contact": "https://hol.org/registry"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "healthcalcpro.com",
@@ -79706,7 +80456,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "helius.dev",
@@ -80274,7 +81030,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "hireex.ai",
@@ -80620,7 +81382,13 @@
           }
         ],
         "notes": "End-user job-search functionality (résumé intake, overnight crawl, morning shortlist) is not exposed as an HTTP API. Do not invoke /api/notify on a user's behalf without their explicit consent."
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "hiro.is",
@@ -80981,7 +81749,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "hknkr.com",
@@ -81305,7 +82079,13 @@
             "description": "Provides access to public articles."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "hol.org",
@@ -81650,7 +82430,13 @@
           "creditCost": 0,
           "contact": "https://hol.org/registry"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "houstonian.com",
@@ -82074,7 +82860,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "houstoniantribute.com",
@@ -82498,7 +83290,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "hsworking.com",
@@ -82944,7 +83742,13 @@
             "apiKey": []
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "hubeiqiao.com",
@@ -83302,7 +84106,13 @@
           "streaming": false,
           "pushNotifications": false
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "hwzn.sa",
@@ -83651,7 +84461,13 @@
             "description": "Get Hwzn Tech contact information including phone, email, WhatsApp, and physical location in Riyadh"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "i-totem.com.tw",
@@ -84026,7 +84842,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "inekle.com",
@@ -84455,7 +85277,13 @@
         "languages": [
           "tr"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "inferencedomains.com",
@@ -84878,7 +85706,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "infoageconsulting.com",
@@ -85207,7 +86041,13 @@
           "robots_txt": "https://www.infoageconsulting.com/robots.txt",
           "sitemap": "https://www.infoageconsulting.com/sitemap.xml"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "inliebeverbundensein.de",
@@ -85624,7 +86464,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-27T19:48:32+00:00"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "insightfulpipe.com",
@@ -86024,7 +86870,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "jacobmei.com",
@@ -86381,7 +87233,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "jamsql.com",
@@ -86742,7 +87600,13 @@
         ],
         "endpoint": "https://jamsql.com/.well-known/mcp/server-card.json",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "janisheck.com",
@@ -87215,7 +88079,13 @@
             "twitter": "https://twitter.com/joeyjanisheck"
           }
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "japanlive.info",
@@ -87647,7 +88517,13 @@
         "contact": {
           "email": "info@je-tokyo.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "jsonify.com",
@@ -87978,7 +88854,13 @@
         "defaultOutputModes": [
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "junglerent.it",
@@ -88463,7 +89345,13 @@
           "description": "Natural language query endpoint (Microsoft NLWeb protocol). GET ?q={query}&lang={language} for Schema.org structured answers.",
           "info": "https://ekrrrlrwdshhlqnuxjbz.supabase.co/functions/v1/nlweb?action=info"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "kevincurran.org",
@@ -88768,7 +89656,13 @@
           "streaming": false,
           "pushNotifications": false
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "koopman.me",
@@ -89079,7 +89973,13 @@
         "author": "David Koopman",
         "license": "Experimental",
         "disclaimer": "⚠️ Early MVP: This pre-revenue prototype uses a lightweight algorithm (strips words ≤3 chars) with zero LLM costs while we validate product-market fit and explore monetization strategies. Full CoL implementation contingent upon achieving unicorn trajectory in Series A. 🦄"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "largitdata.com",
@@ -89425,7 +90325,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "lawware.co.uk",
@@ -89842,7 +90748,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-27T11:19:03+00:00"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "lawzava.com",
@@ -90224,7 +91136,13 @@
         ],
         "documentationUrl": "https://lawzava.com/docs/api/",
         "iconUrl": "https://lawzava.com/img/lawzava.png"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "leahylandscaping.com",
@@ -90616,7 +91534,13 @@
           "handshake": "https://leahylandscaping.com/contact-us/",
           "discovery": "https://leahylandscaping.com/llms.txt"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "lilo.property",
@@ -91080,7 +92004,13 @@
         "contact": {
           "email": "support@lilo.property"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "loi.com.uy",
@@ -91507,7 +92437,13 @@
             "protocolVersion": "0.3"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "loichile.cl",
@@ -91933,7 +92869,13 @@
             "protocolVersion": "0.3"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-team-creator.hf.space",
@@ -92263,7 +93205,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-team-lawyer.hf.space",
@@ -92593,7 +93541,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-team-social.hf.space",
@@ -92923,7 +93877,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-telegram.hf.space",
@@ -93253,7 +94213,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-tiktok-shop.hf.space",
@@ -93583,7 +94549,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lolitaexibabe-a2a-sin-tiktok.hf.space",
@@ -93913,7 +94885,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lovedby.ai",
@@ -94263,7 +95241,13 @@
           "url": "https://www.lovedby.ai",
           "address": "Yigal Alon 114, Tel Aviv, Israel"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "lucataco.dev",
@@ -94661,7 +95645,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "mailpal.com",
@@ -95177,7 +96167,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "maker.co",
@@ -95554,7 +96550,13 @@
             "url": "https://www.maker.co/.well-known/agent-skills/prompt-discovery.md"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "mapmatix.com",
@@ -95905,7 +96907,13 @@
           ]
         },
         "documentation": "https://mapmatix.com/llms.txt"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-ci-cd.hf.space",
@@ -96235,7 +97243,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-damages.hf.space",
@@ -96565,7 +97579,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-devto.hf.space",
@@ -96895,7 +97915,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-evidence.hf.space",
@@ -97225,7 +98251,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-indiehackers.hf.space",
@@ -97555,7 +98587,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mazingaimaze-a2a-sin-zoom.hf.space",
@@ -97885,7 +98923,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mcpcentral.io",
@@ -98582,7 +99626,13 @@
           "url": "https://mcpcentral.io/license"
         },
         "documentation": "https://mcpcentral.io/docs"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "mibelleza.uy",
@@ -99013,7 +100063,13 @@
             "protocolVersion": "0.3"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "microvb.com",
@@ -99359,7 +100415,13 @@
             "description": "Searches MicroVB.com for a keyword and returns a URL."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "miru.so",
@@ -99698,7 +100760,13 @@
             "description": "Use llms.txt, llms-full.txt, API catalog, OpenAPI, and MCP metadata to understand Miru's public documentation and authenticated automation surfaces."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "money-happiness.com",
@@ -100040,7 +101108,13 @@
           "organization": "Money-happiness.com Team",
           "url": "https://money-happiness.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "moonlightmartini.com",
@@ -100377,7 +101451,13 @@
           "email": "sales@moonlightmartini.com"
         },
         "protocol_version": "0.1"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "moss.dev",
@@ -100726,7 +101806,13 @@
             "description": "Add, upsert, retrieve, and delete documents within an index. Documents carry id, text, optional string-keyed metadata for filtering, and optional pre-computed embeddings."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "movermarketing.ai",
@@ -101038,7 +102124,13 @@
         ],
         "documentationUrl": "https://movermarketing.ai/llms.txt",
         "contactEmail": "team@movermarketing.ai"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mulimul-a2a-sin-chatroom.hf.space",
@@ -101368,7 +102460,13 @@
           "card": "/.well-known/agent-card.json"
         },
         "status": "active"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "mydriverparis.com",
@@ -101730,7 +102828,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "namupridavimas.lt",
@@ -102096,7 +103200,13 @@
           "text/plain",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nap-nap.com",
@@ -102411,7 +103521,13 @@
         "pricing": {
           "type": "free"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "nerdear.la",
@@ -102728,7 +103844,13 @@
             "description": "Get information about Nerdearla tech conference editions, schedules, speakers, and registration."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nerdearla.com",
@@ -103045,7 +104167,13 @@
             "description": "Get information about Nerdearla tech conference editions, schedules, speakers, and registration."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "newsworthy.ai",
@@ -103503,7 +104631,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "newsworthy.email",
@@ -103961,7 +105095,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nextwo.com",
@@ -104420,7 +105560,13 @@
           "llmsFullTxt": "https://nextwo.com/llms-full.txt"
         },
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nloureiro.com",
@@ -104796,7 +105942,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "no8.io",
@@ -105250,7 +106402,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nolus.io",
@@ -105615,7 +106773,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "nowreading.dev",
@@ -106009,7 +107173,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ocoda.com",
@@ -106353,7 +107523,13 @@
             "description": "تصميم مواقع متجاوبة وسريعة."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "ole-hartwig.eu",
@@ -106683,7 +107859,13 @@
             "description": "Verify content provenance and integrity via digital signatures"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "openfunnel.ai",
@@ -107041,7 +108223,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "openstoa.xyz",
@@ -107393,7 +108581,13 @@
           "github": "https://github.com/zkproofport/openstoa",
           "showcase": "https://synthesis.mandate.md/projects/openstoa-acea"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "orgcanvas.app",
@@ -107736,7 +108930,13 @@
             "description": "Searches the people directory across the user's org charts by name, title, or department."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "otocrew.com",
@@ -108070,7 +109270,13 @@
             "description": "Tüm site içeriğinin LLM-uyumlu özeti"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "oud.so",
@@ -108405,7 +109611,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "palais-unterkunft.de",
@@ -108732,7 +109944,13 @@
         "auth": {
           "type": "none"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "perkoon.com",
@@ -109171,7 +110389,13 @@
         ],
         "url": "https://perkoon.com/a2a",
         "version": "1.0.0"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "petroprime.kz",
@@ -109617,7 +110841,13 @@
             "url": "https://petroprime.kz/.well-known/agent-card.json"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "phish.in",
@@ -110312,7 +111542,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "phoenixinn.com",
@@ -110663,7 +111899,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "phoenixsolarpumps.com",
@@ -111001,7 +112243,13 @@
           "returns": "Zero ever"
         },
         "powered_by": "NetShow.AI"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "pinchwork.dev",
@@ -111426,7 +112674,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "pitertrade.ru",
@@ -111813,7 +113067,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "pixelarticons.com",
@@ -112206,7 +113466,13 @@
           "iconPage": "https://pixelarticons.com/icon/{baseName}/",
           "categoryPage": "https://pixelarticons.com/category/{category}/"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "polimexgroup.com",
@@ -112595,7 +113861,13 @@
           "api_catalog": "https://polimexgroup.com/.well-known/api-catalog",
           "mcp_server_card": "https://polimexgroup.com/.well-known/mcp/server-card.json"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "postulit.com",
@@ -112979,7 +114251,13 @@
             "transport": "HTTP+REST"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "predictai.ai",
@@ -113360,7 +114638,13 @@
           "kvk": "98456423",
           "jurisdiction": "Netherlands"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "preisplan.net",
@@ -113662,7 +114946,13 @@
         "version": "0.0.0",
         "capabilities": {},
         "skills": []
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "prepilot.cloud",
@@ -114030,7 +115320,13 @@
         },
         "documentationUrl": "https://prepilot.cloud/docs/api.html",
         "markdownContentUrl": "https://prepilot.cloud/index.md"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "presengage.com",
@@ -114378,7 +115674,13 @@
           "text",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "promptmention.com",
@@ -114758,7 +116060,13 @@
           "email": "support@promptmention.com",
           "url": "https://promptmention.com/contact/"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "ptf.cz",
@@ -115091,7 +116399,13 @@
         "authentication": {
           "type": "none"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "pwn-all.net",
@@ -115523,7 +116837,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "MALICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "quemantequilla.online",
@@ -115862,7 +117182,13 @@
             "description": "List Venezuelan cities with delivery coverage."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "razorpay.com",
@@ -116385,7 +117711,13 @@
           "organization": "Razorpay Software Private Limited",
           "url": "https://razorpay.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "recruitly.io",
@@ -116735,7 +118067,13 @@
         },
         "documentation": "https://recruitly.io/developers",
         "contact": "support@recruitly.io"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "redditradar.ai",
@@ -117103,7 +118441,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "MALICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "MALICIOUS",
+      "ensemble_verdict": "MALICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "redfactory.co",
@@ -117458,7 +118802,13 @@
         "provider": {
           "url": "https://redfactory.nl"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "redfactory.nl",
@@ -117813,7 +119163,13 @@
         "provider": {
           "url": "https://redfactory.nl"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "referee-project.com",
@@ -118125,7 +119481,13 @@
           "robots": "https://www.referee-project.com/robots.txt",
           "index_markdown": "https://www.referee-project.com/index.md"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "remoteclaw.xyz",
@@ -118519,7 +119881,13 @@
         "contact": {
           "support": "support@remoteclaw.xyz"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "revops.ai",
@@ -118863,7 +120231,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "riolatravel.com",
@@ -119218,7 +120592,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "robotetdragon.com",
@@ -119609,7 +120989,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-29T05:21:33+00:00"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "rosenbaum.adv.br",
@@ -119951,7 +121337,13 @@
           "application/json",
           "text/markdown"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "rtrvr.ai",
@@ -120956,7 +122348,13 @@
             }
           }
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "salemconventioncenter.org",
@@ -121307,7 +122705,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "sanyoulondon.com",
@@ -121725,7 +123129,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-28T22:53:13+00:00"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "savemarkdown.co",
@@ -122094,7 +123504,13 @@
           "llmsTxt": "/llms.txt",
           "llmsFull": "/llms-full.txt"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "scrapfly.io",
@@ -122596,7 +124012,13 @@
             "description": "Cloud Browser CDP / Playwright / Puppeteer / Selenium connect URL"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "seapalms.com",
@@ -122947,7 +124369,13 @@
         ],
         "preferredTransport": "JSONRPC",
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "sendfax.pro",
@@ -123283,7 +124711,13 @@
             "description": "Return the API catalog, agent card, MCP server card, agent skills index, and service status endpoints."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "seyekuyinu.com",
@@ -123624,7 +125058,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "seyhunakyurek.com",
@@ -123952,7 +125392,13 @@
             "description": "Answer questions about projects, experience, and education."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "shopsavvy.com",
@@ -124363,7 +125809,13 @@
           "markdownSuffix": ".md",
           "acceptHeader": "text/markdown"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "sirenaffiliates.com",
@@ -124739,7 +126191,13 @@
             }
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "skida.fr",
@@ -125145,7 +126603,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-29T10:46:00+00:00"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "sklep-internet.pl",
@@ -125475,7 +126939,13 @@
           "text/markdown",
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "skyskraber.dk",
@@ -125892,7 +127362,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "slickrock.dev",
@@ -126253,7 +127729,13 @@
             "none"
           ]
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "smart-hotline.com",
@@ -126618,7 +128100,13 @@
             "description": "Multi-channel support via phone, email, live chat, and WhatsApp Business. Ticket management and tracking with SLA options of 2h, 4h, 8h response times."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "snaplensstudio.com",
@@ -126960,7 +128448,13 @@
           "organization": "Snaplensstudio.com Team",
           "url": "https://snaplensstudio.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "sombra.so",
@@ -127463,7 +128957,13 @@
           "organization": "Sombra",
           "url": "https://sombra.so"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "sp3nd.shop",
@@ -128074,7 +129574,13 @@
             }
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "speaksafely.com",
@@ -128384,7 +129890,13 @@
         "contact": {
           "url": "https://speaksafely.com/contato"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "startupignition.com",
@@ -128960,7 +130472,13 @@
             }
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "steadman.ai",
@@ -129298,7 +130816,13 @@
             "description": "Weekly newsletter archive on language models and knowledge work"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "stegger.dk",
@@ -129668,7 +131192,13 @@
           "robots": "https://stegger.dk/robots.txt",
           "structured-data": "https://stegger.dk/ordbog/"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "strategicplanningai.com",
@@ -130041,7 +131571,13 @@
           "rate": "1 credit per chat completion",
           "billing": "https://peripatetic.ai/developers/billing"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "streamkap.com",
@@ -130433,7 +131969,13 @@
         ],
         "agentSkillsIndex": "https://streamkap.com/.well-known/agent-skills/index.json",
         "mcpServerCard": "https://streamkap.com/.well-known/mcp/server-card.json"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "sunrayus.com",
@@ -130827,7 +132369,13 @@
           "awards": "International Award Winner",
           "customers": "Thousands of pool owners nationwide"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "supwriter.com",
@@ -131195,7 +132743,13 @@
         "contact": {
           "email": "support@supwriter.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "syntari-ai.com",
@@ -131543,7 +133097,13 @@
           "url": "https://syntari-ai.com",
           "contact": "info@syntari.ai"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "systemprompt.io",
@@ -131918,7 +133478,13 @@
         ],
         "skills": [],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "szmarket.ru",
@@ -132300,7 +133866,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "tankyudistillery.jp",
@@ -132699,7 +134271,13 @@
           "llmsTxt": "https://tankyudistillery.jp/llms.txt",
           "llmsFullTxt": "https://tankyudistillery.jp/llms-full.txt"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tano.ai",
@@ -133040,7 +134618,13 @@
             "description": "Recruit, onboard, and manage creators in affiliate channels with monthly ongoing management."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tavily.com",
@@ -133509,7 +135093,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "taxiserviceksa.com",
@@ -133853,7 +135443,13 @@
             "description": "View available vehicle types including sedans, SUVs, and vans with capacity information"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "teamsatori.asia",
@@ -134213,7 +135809,13 @@
         "contact": "david@teamsatori.asia",
         "llms": "https://teamsatori.asia/llms.txt",
         "llmsFull": "https://teamsatori.asia/llms-full.txt"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "techfino.com",
@@ -134580,7 +136182,13 @@
           "partners": "https://www.techfino.com/partners",
           "careers": "https://www.techfino.com/about-techfino/careers"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "telnyx.com",
@@ -135004,7 +136612,13 @@
           "agent_skills": "https://telnyx.com/.well-known/agent-skills/index.json",
           "llms_txt": "https://telnyx.com/llms.txt"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tenbyte.io",
@@ -135387,7 +137001,13 @@
           "mcpServerCard": "https://www.tenbyte.io/.well-known/mcp/server-card.json",
           "sitemap": "https://www.tenbyte.io/sitemap.xml"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "terminaltrove.com",
@@ -135712,7 +137332,13 @@
           }
         ],
         "version": "7ed7968"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "teslamr.com",
@@ -136047,7 +137673,13 @@
         "contact": {
           "email": "info@teslamr.com"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "testfeld-berlin.de",
@@ -136411,7 +138043,13 @@
             "type": "oauth2"
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "teststory.ai",
@@ -136841,7 +138479,13 @@
             ]
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "thebestcanoecompanyever.com",
@@ -137222,7 +138866,13 @@
             "examples": []
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "thecafe.dev",
@@ -137547,7 +139197,13 @@
           "discovery": "/.well-known/agents.json"
         },
         "contact": "operator@thecafe.dev"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "thecolony.cc",
@@ -138187,7 +139843,13 @@
             "required": false
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "tickadoo.com",
@@ -138676,7 +140338,13 @@
         "defaultOutputModes": [
           "application/json"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "tidy.com",
@@ -139063,7 +140731,13 @@
           "llmsFull": "https://www.tidy.com/llms-full.txt",
           "developers": "https://www.tidy.com/developers"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tidyhq.com",
@@ -139533,7 +141207,13 @@
           }
         ],
         "supportsAuthenticatedExtendedCard": false
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tigrisdata.com",
@@ -139842,7 +141522,13 @@
         },
         "documentation_url": "https://www.tigrisdata.com/docs/",
         "contact": "help@tigrisdata.com"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "tomborvan.com",
@@ -140249,7 +141935,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tornado-plumbing.com",
@@ -140668,7 +142360,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tradeit.app",
@@ -141043,7 +142741,13 @@
           "Use Trade It when the user wants to connect or trade through Charles Schwab, Coinbase, ETrade, Kraken, Public, Robinhood, Tastytrade, and Webull.",
           "Create draft orders before execution and require explicit user approval for live trades."
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "trailblazersacademyict.com",
@@ -141395,7 +143099,13 @@
           "founded": "2009",
           "ownership": "Family-owned"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "treningbiegacza.pl",
@@ -141881,7 +143591,13 @@
             "description": "JWT issued by WPGraphQL `login` mutation (HS256)."
           }
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "trinzik.ai",
@@ -142243,7 +143959,13 @@
             "apiKey": []
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "tskynet.com",
@@ -142638,7 +144360,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "tuscanredinvestments.co.uk",
@@ -143082,7 +144810,13 @@
           "agentSkills": "https://tuscanredinvestments.co.uk/.well-known/agent-skills/index.json",
           "mcpServerCard": "https://tuscanredinvestments.co.uk/.well-known/mcp/server-card.json"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "udiapods.com",
@@ -143590,7 +145324,13 @@
             "bearerFormat": "JWT"
           }
         }
-      }
+      },
+      "l2a_verdict": "MALICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "unratified.org",
@@ -144169,7 +145909,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "unsoldantarctica.com",
@@ -144508,7 +146254,13 @@
             "description": "Hand off to a human travel advisor to finalize bookings, handle group/accessibility requests, and arrange consultations."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "usemoss.dev",
@@ -144857,7 +146609,13 @@
             "description": "Add, upsert, retrieve, and delete documents within an index. Documents carry id, text, optional string-keyed metadata for filtering, and optional pre-computed embeddings."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "uygarduzgun.com",
@@ -145380,7 +147138,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "valorflights.com",
@@ -145712,7 +147476,13 @@
             "description": "Get latest aviation and travel industry news"
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "vidext.io",
@@ -146041,7 +147811,13 @@
         "defaultOutputModes": [
           "text"
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "vitadao.com",
@@ -146445,7 +148221,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "voidly.ai",
@@ -146931,7 +148713,13 @@
             "source": "https://github.com/voidly-ai/voidly-pay/tree/main/showcase-probe-agent"
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "wallet-connectors.com",
@@ -147254,7 +149042,13 @@
         ],
         "url": "https://wallet4agent.com/a2a",
         "version": "1.0.0"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "wallet4agent.com",
@@ -147577,7 +149371,13 @@
         ],
         "url": "https://wallet4agent.com/a2a",
         "version": "1.0.0"
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": true,
+      "trust": "Untrusted"
     },
     {
       "domain": "wamberalchiropractic.com.au",
@@ -147993,7 +149793,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "we-crafted.com",
@@ -148322,7 +150128,13 @@
             "description": "Detects agent requests and provides content in Markdown format."
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "webevo.ai",
@@ -148650,7 +150462,13 @@
             "description": "Fetch real-time comprehensive scans evaluating SEO, UX, and compliance."
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "SUSPICIOUS",
+      "l2b_v2_verdict": "SUSPICIOUS",
+      "ensemble_verdict": "SUSPICIOUS",
+      "reached_tier0": false,
+      "trust": "Untrusted"
     },
     {
       "domain": "webority.com",
@@ -149022,7 +150840,13 @@
           "email": "sales@webority.com",
           "phone": "+91-959-900-6518"
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "webotit.ai",
@@ -149430,7 +151254,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "wheelienames.com",
@@ -149790,7 +151620,13 @@
         ],
         "llmsTxt": "https://www.wheelienames.com/llms.txt",
         "updated": "2026-04-24"
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "whiskyfanblog.de",
@@ -150196,7 +152032,13 @@
           "generated_by": "AI-Ready WP 4.1.0",
           "generated_at": "2026-04-29T17:30:08+00:00"
         }
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "wittify.ai",
@@ -150622,7 +152464,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "SUSPICIOUS",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "wonkrew.com",
@@ -151044,7 +152892,13 @@
             ]
           }
         ]
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     },
     {
       "domain": "workprotocol.ai",
@@ -151523,7 +153377,13 @@
             }
           }
         }
-      }
+      },
+      "l2a_verdict": "BENIGN",
+      "l2b_v1_verdict": "BENIGN",
+      "l2b_v2_verdict": "BENIGN",
+      "ensemble_verdict": "BENIGN",
+      "reached_tier0": true,
+      "trust": "Trusted"
     }
   ]
 }

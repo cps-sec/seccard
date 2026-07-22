@@ -12,7 +12,16 @@ Internet-scale crawl (36.1M registered domains). Each record contains **both**:
   `capabilities`, `defaultInputModes`/`defaultOutputModes`, `skills`, …), and
 - the **tier / health assessment** (`tier`, `structural_score`, `final_score`,
   `tier_0/1/2_checks`, `blockers`, `advisories`, `signatures_present`,
-  `signer_identity`, `rekor_integrated_time`, …).
+  `signer_identity`, `rekor_integrated_time`, …), and
+- the **pipeline verdicts and trust label**: `l2a_verdict`, `l2b_v1_verdict`,
+  `l2b_v2_verdict` (each BENIGN/SUSPICIOUS/MALICIOUS), `ensemble_verdict` (2-of-3
+  majority), `reached_tier0` (bool, `structural_score >= 8`), and `trust`
+  (`"Trusted"`/`"Untrusted"`).
+
+**Trust policy:** a card is `Trusted` iff `reached_tier0` **and**
+`ensemble_verdict == "BENIGN"` — the only cards eligible for automatic orchestrator
+consumption. Reproduce the labels and summary with
+`artifacts/trust_labeling.py` (see `trust_summary.md`).
 
 Top level: `{"total": 310, "results": [ ... ]}`. This is the ground-truth corpus for
 the wild-corpus evaluation.

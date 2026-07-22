@@ -10,8 +10,6 @@ and saved as JSONL batches with checkpoint/resume support.  Each batch
 file is independent — you can run one category at a time and pick up
 where you left off if you hit rate limits or token budgets.
 
-Author : Miguel Guirao Aguilera
-Date   : 2026-05-11
 Usage  :
     # Run a single category batch
     python adversarial_card_generator.py --batch direct_injection

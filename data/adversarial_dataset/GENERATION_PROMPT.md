@@ -116,6 +116,8 @@ as style guidance; the prompt explicitly instructs the model not to copy them.
 
 ---
 
-*Source of truth: `adversarial_card_generator.py` (`SYSTEM_PROMPT`, `build_user_message()`,
-`TAXONOMY`, `AGENT_PERSONAS`). Ground-truth labels are assigned by construction — each
-card's `expected_verdict` is the category's verdict shown above.*
+*Source of truth: `artifacts/adversarial_card_generator.py` (`SYSTEM_PROMPT`,
+`build_user_message()`, `TAXONOMY`, `AGENT_PERSONAS`). Regenerate with
+`python artifacts/adversarial_card_generator.py --all` (needs `ANTHROPIC_API_KEY`).
+Ground-truth labels are assigned by construction — each card's `expected_verdict` is the
+category's verdict shown above.*

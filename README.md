@@ -47,7 +47,8 @@ cross-study (Table 5).
     ├── nlp_features.py                     # Layer 2A — deterministic NLP rules
     ├── inspect_eval.py                     # Layer 2B — LLM-as-judge evaluation
     ├── a2a_card_health_validator.py        # Tier 0/1/2 trust validator
-    └── cross_model_eval.py                 # nine-model cross-study
+    ├── cross_model_eval.py                 # nine-model cross-study
+    └── adversarial_card_generator.py       # regenerate the adversarial dataset
 ```
 
 ## Setup
@@ -91,6 +92,7 @@ descriptions. Summary:
 | `nlp_features.py` | Layer 2A NLP rules | none (VADER) / HF+torch (SiEBERT) |
 | `inspect_eval.py` | Layer 2B LLM-as-judge (Tables 5–8) | `ANTHROPIC_API_KEY` |
 | `cross_model_eval.py` | nine-model cross-study (Table 5) | API keys / Ollama |
+| `adversarial_card_generator.py` | regenerates the 260-card adversarial dataset | `ANTHROPIC_API_KEY` |
 
 ## Reproducing results
 

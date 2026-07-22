@@ -130,3 +130,24 @@ python artifacts/cross_model_eval.py --models haiku --limit 5
 Requires `ANTHROPIC_API_KEY` (Claude), `OPENAI_API_KEY` (GPT), `GOOGLE_API_KEY`
 (Gemini) as applicable; open-weight models (`phi4`, `mistral_nemo`, `llama31_8b`)
 run through a local Ollama server.
+
+---
+
+## `adversarial_card_generator.py` — regenerate the adversarial dataset
+
+Produces the 260-card adversarial dataset (`claude-sonnet-4-6`) into
+`data/adversarial_dataset/` as `batch_<category>.jsonl`, checkpoint/resume aware. The
+exact system prompt, user-message template, and taxonomy are documented in
+`data/adversarial_dataset/GENERATION_PROMPT.md`. Needs `ANTHROPIC_API_KEY`.
+
+| Parameter | Description |
+|---|---|
+| `--batch CATEGORY` | Generate a single category batch (resume-aware). |
+| `--all` | Generate all pending category batches sequentially. |
+| `--status` | Show per-category completion status. |
+| `--validate CATEGORY` | Validate an existing batch against the Tier-0 structural checker. |
+
+```bash
+python artifacts/adversarial_card_generator.py --status
+python artifacts/adversarial_card_generator.py --all
+```

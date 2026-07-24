@@ -20,4 +20,3 @@ Per-layer verdict classification (all 310 cards):
 | L2B v2 (LLM judge, prompt v2) | 146 | 156 | 8 |
 | Ensemble (2-of-3 majority) | 228 | 80 | 2 |
 
-> Baked `ensemble_verdict` / `trust` fields match the recomputation for all 310 cards.

@@ -10,6 +10,14 @@ released in full under **CC BY 4.0**.
   card-level field, all enumerated values, the category → verdict → count mapping,
   and the generation matrix (categories × obfuscation × sophistication × personas ×
   injection position).
+- **`adversarial_trust_labels.csv`** — per-card pipeline verdicts
+  (`structural_score`, `l2a_verdict`, `l2b_v1_verdict`, `l2b_v2_verdict`) used to
+  derive the Trusted/Untrusted label. Reproduce the labeling and summary with
+  `python artifacts/trust_labeling.py --dataset adversarial` (see
+  `adversarial_trust_summary.md`).
+- **`adversarial_trust_summary.md`** — Trusted/Untrusted summary. All 260 cards
+  reach Tier 0; the ensemble withholds **239** from automatic consumption
+  (**21** false negatives labeled Trusted).
 
 ## Record format
 

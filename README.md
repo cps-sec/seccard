@@ -1,4 +1,4 @@
-# Discovering the Discoverable: Security Evaluation and Defense of A2A Agent Cards in the Wild
+# Trust Me, I'm an Agent: Securing Agent Card Discovery in the Agent2Agent Protocol
 
 **Research artifact.** This repository accompanies the paper and contains the
 datasets and code needed to reproduce its measurement and defense results for

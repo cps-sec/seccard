@@ -163,15 +163,19 @@ Offline (no API key). Applies the trust policy to `data/in_the_wild_corpus/`:
 > otherwise **Untrusted**. Only Trusted cards are eligible for automatic
 > orchestrator consumption.
 
-Reads the self-contained corpus JSON (which carries `structural_score` and the
-per-layer verdicts), recomputes the ensemble and trust label, prints the summary
-table, and writes `data/in_the_wild_corpus/trust_summary.md`.
+Reads the per-layer verdicts + structural score shipped with each dataset,
+recomputes the ensemble and trust label, prints the summary table, and writes a
+`*_trust_summary.md`. Covers both the wild corpus and the 260-card adversarial set.
 
 | Parameter | Description |
 |---|---|
-| `--csv PATH` | Also emit a per-card CSV (`domain, structural_score, l2a, l2b_v1, l2b_v2, ensemble, reached_tier0, trust`). |
+| `--dataset {wild,adversarial}` | Which dataset to label (default `wild`). `wild` reads `data/in_the_wild_corpus/in_the_wild_corpus_310.json`; `adversarial` reads `data/adversarial_dataset/adversarial_trust_labels.csv`. |
+| `--csv PATH` | Also emit a per-card CSV (`key, structural_score, l2a, l2b_v1, l2b_v2, ensemble, reached_tier0, trust`). |
 
 ```bash
-python artifacts/trust_labeling.py
-python artifacts/trust_labeling.py --csv trust.csv
+python artifacts/trust_labeling.py --dataset wild
+python artifacts/trust_labeling.py --dataset adversarial
 ```
+
+For the adversarial set a `Trusted` verdict is a **false negative** (an attack that
+would be auto-consumed): the ensemble withholds 239/260 (91.9%) of attacks; 21 evade.

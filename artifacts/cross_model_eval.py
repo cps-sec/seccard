@@ -38,7 +38,7 @@ if _env_path.exists():
         os.environ["GOOGLE_API_KEY"] = os.environ["GOOGLE_KEY"]
 
 BASE    = Path(__file__).resolve().parent.parent            # repo root
-ADV_DIR = BASE / "data" / "adversarial_dataset"             # 260 adversarial cards
+ADV_DIR = BASE / "data" / "adversarial_dataset_b"             # 260 adversarial cards
 OUT_DIR = BASE / "artifacts" / "cross_model_results"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

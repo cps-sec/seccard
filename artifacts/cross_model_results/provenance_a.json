@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-09-23",
+  "models": [
+    "gemini25flash",
+    "gemini31flashlite",
+    "gpt55",
+    "gpt5mini",
+    "haiku",
+    "llama31_8b",
+    "mistral_nemo",
+    "opus48",
+    "phi4"
+  ],
+  "n_samples": 660,
+  "dataset_sha256": "a148f93fcf7d36a2727a0da9c3a8963193b2f06c701110a107e08042a4454e62",
+  "system_prompt_sha256": "6c7dab90ef35a14393fcb91cbf7155852ac175369e071b3d332b081855074bcc",
+  "system_prompt_chars": 7392,
+  "all_logs_verified": true
+}

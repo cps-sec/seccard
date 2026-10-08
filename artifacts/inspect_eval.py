@@ -50,8 +50,8 @@ BASE       = Path(__file__).resolve().parent.parent          # repo root
 DATA_DIR   = BASE / "data"
 # Wild corpus: the shipped 310-card file carries raw card text + tier results.
 WILD_JSON  = DATA_DIR / "in_the_wild_corpus" / "in_the_wild_corpus_310.json"
-# The 260 adversarial cards ship in data/adversarial_dataset/ (batch_*.jsonl).
-ADV_DIR    = DATA_DIR / "adversarial_dataset"
+# The 260 adversarial cards ship in data/adversarial_dataset_b/ (batch_*.jsonl).
+ADV_DIR    = DATA_DIR / "adversarial_dataset_b"
 # Optional per-layer verdict + human-label files (exact wild ground-truth; on request).
 PROBE_DIR  = DATA_DIR / "wild_verdicts"
 LABELS_PATH= PROBE_DIR / "wild_cards_human_labels.json"

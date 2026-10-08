@@ -17,7 +17,14 @@ python-dotenv==1.2.2       # .env loading for the adversarial-card generator
 # transformers==5.10.2
 # torch==2.12.0
 
-# ── Optional: cross-model study closed-source providers (cross_model_eval.py)
-# openai==2.36.0                 # GPT-5.x models
-# google-generativeai==0.8.6     # Gemini models
-# (open-weight models in cross_model_eval.py run locally via Ollama — no pip dep)
+# ── Optional: cross-model study closed-source providers
+# Needed only for the OpenAI and Gemini columns of the cross-model study.
+#
+# !! openai MUST be <3. inspect-ai 0.3.220 hangs forever against openai 3.x —
+#    silently, with no error and no HTTP request ever issued. That provider path
+#    serves BOTH the ollama/* models and the OpenAI models, so a 3.x install
+#    stalls most of the grid. Verified: 2.54.0 responds in ~3 s, 3.8.0 never
+#    returns.
+# openai>=2.26,<3                # GPT-5.x models (and the ollama/* provider path)
+# google-genai==2.2.0            # Gemini models
+# (open-weight models run locally via Ollama — no pip dependency)

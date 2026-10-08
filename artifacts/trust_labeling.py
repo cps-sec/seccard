@@ -18,7 +18,7 @@ The ensemble is a pure 2-of-3 MAJORITY over the three detection layers
 Self-contained (no network, no API key). Reads the per-layer verdicts + structural
 score shipped with each dataset:
   * wild        -> data/in_the_wild_corpus/in_the_wild_corpus_310.json
-  * adversarial -> data/adversarial_dataset/adversarial_trust_labels.csv
+  * adversarial -> data/adversarial_dataset_b/adversarial_trust_labels.csv
 recomputes the ensemble and trust label, prints the summary table, and writes a
 `*_trust_summary.md` file.
 
@@ -37,8 +37,8 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 WILD_JSON = REPO / "data" / "in_the_wild_corpus" / "in_the_wild_corpus_310.json"
 WILD_SUMMARY = REPO / "data" / "in_the_wild_corpus" / "trust_summary.md"
-ADV_LABELS = REPO / "data" / "adversarial_dataset" / "adversarial_trust_labels.csv"
-ADV_SUMMARY = REPO / "data" / "adversarial_dataset" / "adversarial_trust_summary.md"
+ADV_LABELS = REPO / "data" / "adversarial_dataset_b" / "adversarial_trust_labels.csv"
+ADV_SUMMARY = REPO / "data" / "adversarial_dataset_b" / "adversarial_trust_summary.md"
 
 TIER0_THRESHOLD = 8
 FLAG = {"SUSPICIOUS", "MALICIOUS"}

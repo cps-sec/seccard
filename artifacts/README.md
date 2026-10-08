@@ -110,7 +110,7 @@ python artifacts/inspect_eval.py adversarial --dry_run
 
 ---
 
-## `cross_model_eval.py` — nine-model cross-study
+## `cross_model_eval.py` — nine-model cross-study (dataset B only)
 
 Replicates the adversarial evaluation across nine models (closed-source via API,
 open-weight via Ollama) and writes `artifacts/cross_model_results/`. Reproduces
@@ -133,7 +133,7 @@ run through a local Ollama server.
 
 ---
 
-## `adversarial_card_generator.py` — regenerate the adversarial dataset
+## `adversarial_card_generator.py` — regenerate dataset B (synthetic)
 
 Produces the 260-card adversarial dataset (`claude-sonnet-4-6`) into
 `data/adversarial_dataset/` as `batch_<category>.jsonl`, checkpoint/resume aware. The
@@ -179,3 +179,83 @@ python artifacts/trust_labeling.py --dataset adversarial
 
 For the adversarial set a `Trusted` verdict is a **false negative** (an attack that
 would be auto-consumed): the ensemble withholds 239/260 (91.9%) of attacks; 21 evade.
+
+---
+
+## `cross_model_eval_b.py` — nine-model cross-study, either dataset
+
+Supersedes `cross_model_eval.py`: it takes `--dataset A|B` (the paper's letters),
+ships its own loader rather than reusing the dataset-B-only one, and records a
+dataset fingerprint with every result.
+
+```bash
+# Confirm which corpus will be read — free, no API calls
+python artifacts/cross_model_eval_b.py --dataset A --dataset-check
+
+# Stratified smoke test: 2 cards per category on one local model
+python artifacts/cross_model_eval_b.py --dataset A --models llama31_8b \
+       --sample-per-category 2
+
+# Full grid
+python artifacts/cross_model_eval_b.py --dataset A
+python artifacts/cross_model_eval_b.py --dataset B
+
+# Rebuild tables from shipped results, or re-derive metrics from saved logs
+python artifacts/cross_model_eval_b.py --dataset A --latex-only
+python artifacts/cross_model_eval_b.py --dataset A --recompute
+```
+
+Use `--sample-per-category`, never `--limit`, for a smoke test:
+`batch_benign_seed.jsonl` sorts first, so a head-slice of dataset A returns only
+seed cards and exercises no attack category.
+
+## `verify_dataset_b.py` — dataset A acceptance suite
+
+No API calls. Checks schema and key order, id uniqueness, `parent_card`
+traceability, **seed fidelity** (each attack differs from its seed only at the
+declared `patch_paths`), per-category properties (unicode codepoints actually
+introduced, url family, metadata contradiction added, inserted skills inside the
+judge's 10-skill window), label and obfuscation balance, structural scores, and
+judge-visible length.
+
+```bash
+python artifacts/verify_dataset_b.py \
+    --dataset data/adversarial_dataset_a \
+    --seeds   data/adversarial_dataset_a/seed_pool.json
+```
+
+## `seed_selection_b.py` — dataset A seed pool
+
+Selects the 60 BENIGN seeds deterministically (`random.Random(20260922)`) from the
+wild corpus. **Not runnable from this artifact as shipped**: it needs the human
+annotator labels, which are not included. The resulting pool is shipped instead,
+with a sha256 per seed card.
+
+## `patch_ops_b.py` — the patch vocabulary
+
+Not a command. Defines the six script-applied operations (`REWRITE_TEXT`,
+`REWRITE_EXAMPLES`, `INSERT_SKILLS`, `REWRITE_URL`, `INFLATE_TEXT`, `GAP`), the
+per-category position lists, and the viability/fallback rules. The generator — not
+the model — chooses the operation and the field path, which is why no generated
+card can land a payload at a path that does not exist.
+
+## `adversarial_card_generator_b.py` — regenerate dataset A
+
+```bash
+python artifacts/adversarial_card_generator_b.py --plan-only   # free, no API calls
+python artifacts/adversarial_card_generator_b.py --n 2         # smoke test
+python artifacts/adversarial_card_generator_b.py               # full 600
+python artifacts/adversarial_card_generator_b.py --fill-gaps   # only missing rows
+```
+
+`--plan-only` writes the full generation plan and the cross-tabs without spending
+anything; run it first.
+
+## `make_dataset_comparison.py` — A vs B composition table
+
+```bash
+python artifacts/make_dataset_comparison.py
+```
+Emits `cross_model_results/dataset_comparison_table.tex`. Its `SWAP_COLUMNS` flag
+controls which physical dataset appears under which printed column heading; the
+emitted `.tex` records the mapping in a comment.

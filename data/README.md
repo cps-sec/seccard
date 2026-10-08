@@ -1,5 +1,8 @@
 # Data
 
+> `adversarial_dataset_a/` is the **seeded** 660-card corpus and
+> `adversarial_dataset_b/` the **synthetic** 260-card one, matching the paper.
+
 This directory holds the datasets for the study. All data is released under
 **CC BY 4.0**.
 
@@ -26,7 +29,34 @@ consumption. Reproduce the labels and summary with
 Top level: `{"total": 310, "results": [ ... ]}`. This is the ground-truth corpus for
 the wild-corpus evaluation.
 
-## `adversarial_dataset/`
+## `adversarial_dataset_a/` — 660 seeded cards
+
+600 attacks grafted onto **60 real benign cards** from the wild corpus, shipped
+alongside those 60 untouched seeds. Eleven `batch_*.jsonl` files: ten attack
+categories at 60 cards each, plus `batch_benign_seed.jsonl`.
+
+Beyond the fields dataset B carries, each record adds:
+
+| field | meaning |
+|---|---|
+| `in_the_wild` | 1 for a seed card, 0 for a generated attack |
+| `parent_card` | the seed's wild-corpus card id (1–310); 0 for a seed |
+| `parent_domain` | the seed's domain |
+| `patch_op`, `patch_paths` | the operation applied and every JSON path it touched |
+| `position_drawn` vs `variation.position` | records when the position fallback fired |
+| `structural_score_seed/_patched` | conformance before and after the injection |
+
+`patch_paths` is the verification invariant: an attack card must differ from its
+seed at those paths **and nowhere else**. `verify_dataset_b.py` checks this for all
+600. Also shipped: `seed_pool.json` (the 60 seeds with a sha256 per card),
+`ELIGIBILITY_REPORT.md` (the filter funnel, 123 eligible → 60 sampled) and
+`generation_plan.jsonl` (all 600 rows, written before any API call).
+
+Labels: 60 BENIGN / 300 SUSPICIOUS / 300 MALICIOUS. Note the BENIGN cards are
+**real observed cards**, not synthetic — they are the controls that give the
+evaluation a false-positive rate.
+
+## `adversarial_dataset_b/` — 260 synthetic cards
 
 The **260 synthetic adversarial cards** (10 attack categories), released in full:
 10 `batch_<category>.jsonl` files plus the field dictionary

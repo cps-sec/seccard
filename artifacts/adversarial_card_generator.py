@@ -48,7 +48,7 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
 SCRIPT_DIR   = Path(__file__).resolve().parent          # artifacts/
-DATASET_DIR  = SCRIPT_DIR.parent / "data" / "adversarial_dataset"
+DATASET_DIR  = SCRIPT_DIR.parent / "data" / "adversarial_dataset_b"
 MANIFEST     = DATASET_DIR / "manifest.json"
 VALIDATOR    = SCRIPT_DIR / "a2a_card_health_validator.py"   # sibling in artifacts/
 
